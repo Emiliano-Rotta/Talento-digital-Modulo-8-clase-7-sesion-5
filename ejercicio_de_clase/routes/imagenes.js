@@ -1,7 +1,7 @@
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
-// const sharp = require('sharp');
+
 
 const router = express.Router();
 const uploadDir = path.join(__dirname, '../uploads');
@@ -46,8 +46,7 @@ router.post('/upload', async (req, res) => {
 
     fs.writeFileSync(savePath, fileContent, 'binary');
 
-    // Obtener dimensiones con sharp
-    // const dimensions = await sharp(savePath).metadata();
+
     const imageDetails = {
       originalName,
       uniqueName,
