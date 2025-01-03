@@ -17,7 +17,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.json());
 
 // Rutas
-const imagenesRoutes = require('./routes/imagenes');
+const imagenesRoutes = require('./routes/imagenes.js');
 app.use('/api/imagenes', imagenesRoutes);
 
 // Servidor
