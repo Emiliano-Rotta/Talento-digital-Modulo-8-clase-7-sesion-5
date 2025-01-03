@@ -1,0 +1,18 @@
+{
+  "name": "codigo-de-clase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "express-fileupload": "^1.5.1",
+    "nodemon": "^3.1.9"
+  }
+}

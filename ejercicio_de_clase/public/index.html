@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestión de Imágenes</title>
+</head>
+<body>
+  <h1>Subir Imagen</h1>
+  <form id="uploadForm" enctype="multipart/form-data" method="POST" action="/api/imagenes/upload">
+    <input type="file" name="imagen" id="imagen" required />
+    <button type="submit">Subir</button>
+  </form>
+  <script src="assets/js/scripts.js"></script>
+</body>
+</html>
+
